@@ -1,0 +1,55 @@
+// File generated on 11/12/2021 at 13:11:02
+{ 
+    description = "Small Targets Experiment"; 
+    allowUserAdd = True;
+    pretrialDuration = 0;
+    referenceTargetSize = 0.0175;
+    
+    weapon = {
+        id = "oneShot";
+        firePeriod = 0.05;
+        damagePerSecond = 21.0;
+        autoFire = False;
+        renderDecals = True;
+    };
+    // Show weapon cooldown ring
+    //showHUD = true;
+    //renderWeaponStatus = True;
+    //cooldownMode = "ring";
+
+    sessions = (
+
+        {
+            description = "oneHitCluster trials";
+            frameRate = 360;
+            id = "oneHitCluster";
+            blockCount = 5;
+            
+            trials = ( 
+                { 
+                    count = 15; 
+                    ids = ( "static", "static", "static", "static" ); 
+                },
+            ); 
+        },
+    
+    ); 
+
+    targets = ( 
+        {
+            id: "static",
+            destSpace = "world";
+            visualSize = [ 0.075, 0.075 ];
+            speed: [ 0, 0 ],
+            spawnBounds = AABox {
+                Point3(38.5, -3.3, -2.9),
+                Point3(38.5, -1.3, 2.3),
+            };
+            moveBounds = AABox {
+                Point3(38.0, -4.3, -3.3),
+                Point3(39.0, -0.0, 2.7),
+            };
+            jumpEnabled: false,
+        },
+    ); 
+}

@@ -1,0 +1,13 @@
+// File generated on 11/12/2021 at 13:11:02
+{ 
+    currentUser = "anon"; 
+    sessions = ( ); 
+    settingsVersion = 1; 
+    users = ( 
+        { 
+            completedSessions = ( ); 
+            id = "anon"; 
+            sessions = ("oneHitCluster");
+        } 
+    ); 
+}  
