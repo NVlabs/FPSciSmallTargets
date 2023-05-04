@@ -1,6 +1,6 @@
 # Small Targets Experiment
 
-This repository contains a [FPSci](github.com/NVLabs/FPSci) user study experiment to test the performance of the user on small targets. It was designed to compare a 24.5" 1080p 360 Hz screen to a 27" 1440p 360 Hz screen, the results of which can be found in [this blog post](https://developer.nvidia.com/blog/improving-aiming-time-on-small-fps-targets-with-higher-resolutions-and-larger-screen-sizes/).
+This repository contains a [FPSci](https://github.com/NVLabs/FPSci) user study experiment to test the performance of the user on small targets. It was designed to compare a 24.5" 1080p 360 Hz screen to a 27" 1440p 360 Hz screen, the results of which can be found in [this blog post](https://developer.nvidia.com/blog/improving-aiming-time-on-small-fps-targets-with-higher-resolutions-and-larger-screen-sizes/).
 
 ## How to run
 
